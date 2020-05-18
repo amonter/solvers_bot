@@ -4,7 +4,6 @@ var dataAccess = require("./data_access");
 console.log('bot server started...');
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = '1234682792:AAFRumRmO6Bx-Ssb7qSUQaUC5VxNz-t3MQ8';
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
